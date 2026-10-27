@@ -1,0 +1,393 @@
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #fff;
+  color: #212529;
+}
+
+.page-container {
+  width: calc(100% - 48px);
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 40px 0 48px;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 10px;
+}
+h2 {
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 0;
+}
+h3 {
+  font-size: 15px;
+  font-weight: 600;
+}
+.page-intro {
+  margin-bottom: 32px;
+}
+.intro-description {
+  color: #626b73;
+  font-size: 15px;
+  line-height: 1.6;
+  margin: 0;
+}
+.search-panel {
+  max-width: 760px;
+}
+.search-form {
+  margin-top: 18px;
+}
+.form-label {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.search-controls {
+  display: flex;
+  gap: 10px;
+  align-items: stretch;
+}
+.search-input-wrap {
+  flex: 1;
+  min-width: 0;
+}
+.search-input {
+  min-height: 44px;
+  padding: 10px 12px;
+  border-color: #adb5bd;
+}
+.search-controls .btn {
+  min-height: 44px;
+  min-width: 88px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.search-help {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 10px;
+  font-size: 13px;
+  color: #626b73;
+}
+.example-button {
+  min-height: 32px;
+  font-size: 13px;
+}
+.brands-section,
+.offers-section {
+  margin-top: 32px;
+  padding-top: 24px;
+  border-top: 1px solid #e1e5e9;
+}
+.section-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+.section-count {
+  font-size: 13px;
+  color: #626b73;
+}
+.brands-list {
+  max-width: 760px;
+}
+.brands-section .section-heading {
+  max-width: 760px;
+}
+.brand-option {
+  min-height: 70px;
+  padding: 14px 16px;
+  border-color: #dce1e6;
+}
+.brand-title {
+  display: block;
+  font-size: 15px;
+  font-weight: 600;
+}
+.brand-description {
+  display: block;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #626b73;
+  margin-top: 4px;
+}
+.brands-list .list-group-item.active {
+  color: #212529;
+  background: #edf4ff;
+  border-color: #9cbdec;
+}
+.selection-hint {
+  color: #626b73;
+  font-size: 13px;
+  margin: 12px 0 0;
+  line-height: 1.6;
+}
+.message-panel {
+  padding: 14px 0;
+}
+.message-panel h3 {
+  margin-bottom: 6px;
+}
+.message-panel p {
+  margin: 0;
+  color: #626b73;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.offers-heading-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+  margin-bottom: 16px;
+}
+.offers-heading-row p {
+  font-size: 14px;
+}
+.results-toolbar,
+.results-filters {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.results-toolbar {
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.results-total {
+  font-size: 14px;
+}
+.stock-filter {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  padding-left: 0;
+  min-height: 42px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.stock-filter .form-check-input {
+  float: none;
+  margin: 0;
+  flex-shrink: 0;
+}
+.sort-select {
+  width: 230px;
+  min-height: 42px;
+  font-size: 14px;
+}
+.offers-table {
+  table-layout: fixed;
+  font-size: 14px;
+  margin-bottom: 0;
+  border-top: 1px solid #e1e5e9;
+}
+.offers-table th:first-child {
+  width: 56%;
+}
+.offers-table th:nth-child(2) {
+  width: 24%;
+}
+.offers-table th:last-child {
+  width: 20%;
+}
+.offers-table th,
+.offers-table td {
+  padding: 15px 16px;
+  vertical-align: top;
+  overflow-wrap: anywhere;
+  border-bottom-color: #e6e9ec;
+}
+.offers-table th {
+  background: #f7f8fa;
+  color: #58616a;
+  font-size: 12px;
+  font-weight: 600;
+}
+.offer-brand-line {
+  margin-bottom: 5px;
+}
+.offer-brand {
+  font-weight: 600;
+}
+.offer-type {
+  margin-left: 8px;
+  font-size: 12px;
+  color: #626b73;
+}
+.offer-name {
+  line-height: 1.5;
+}
+.offer-number,
+.warehouse-name {
+  display: block;
+  color: #626b73;
+  font-size: 12px;
+  line-height: 1.5;
+  margin-top: 5px;
+}
+.price-column,
+.price-cell {
+  text-align: right;
+}
+.offers-table .price-cell {
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  overflow-wrap: normal;
+}
+.stock-label {
+  display: block;
+  line-height: 1.5;
+}
+.results-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  font-size: 13px;
+  margin-top: 16px;
+}
+.pagination-controls {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.page-button {
+  border: 1px solid #ced4da;
+  min-width: 72px;
+  min-height: 40px;
+}
+.retry-button {
+  border: 0;
+  background: transparent;
+  color: #0d6efd;
+  padding: 8px 0;
+  text-decoration: underline;
+  font-size: 14px;
+}
+button:focus-visible {
+  outline: 2px solid #0d6efd;
+  outline-offset: 2px;
+}
+
+@media (max-width: 640px) {
+  .page-container {
+    width: calc(100% - 32px);
+    padding: 24px 0 32px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  .page-intro {
+    margin-bottom: 26px;
+  }
+  .intro-description {
+    font-size: 14px;
+  }
+  .search-controls {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .search-input-wrap {
+    flex-basis: 100%;
+  }
+  .search-controls .btn {
+    flex: 1;
+    min-width: 0;
+  }
+  .search-help {
+    gap: 8px 14px;
+  }
+  .search-help > span {
+    flex-basis: 100%;
+  }
+  .example-button {
+    min-height: 38px;
+  }
+  .brands-section,
+  .offers-section {
+    margin-top: 28px;
+    padding-top: 20px;
+  }
+  .section-heading {
+    margin-bottom: 14px;
+  }
+  .brand-option {
+    padding: 13px 14px;
+  }
+  .offers-heading-row {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .results-toolbar {
+    align-items: stretch;
+    gap: 8px;
+  }
+  .results-filters {
+    width: 100%;
+    gap: 8px;
+  }
+  .stock-filter {
+    min-height: 40px;
+    font-size: 13px;
+  }
+  .sort-select {
+    width: 100%;
+    min-height: 42px;
+    font-size: 13px;
+  }
+  .offers-table {
+    font-size: 13px;
+  }
+  .offers-table th:first-child {
+    width: 46%;
+  }
+  .offers-table th:nth-child(2) {
+    width: 24%;
+  }
+  .offers-table th:last-child {
+    width: 30%;
+  }
+  .offers-table th,
+  .offers-table td {
+    padding: 12px 8px;
+  }
+  .offers-table th {
+    font-size: 11px;
+  }
+  .offer-type {
+    display: block;
+    margin-left: 0;
+    margin-top: 2px;
+    font-size: 11px;
+  }
+  .offer-number,
+  .warehouse-name {
+    font-size: 11px;
+  }
+  .price-cell {
+    font-size: 12px;
+  }
+  .page-button {
+    min-height: 44px;
+  }
+}
